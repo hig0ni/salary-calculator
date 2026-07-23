@@ -625,6 +625,21 @@ input[type="number"] {
   text-align: center;
 }
 
+.site-footer p {
+  margin: 4px 0;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+}
+
 /* ============================================================
    접근성 / 모션
    ============================================================ */

@@ -1,6 +1,7 @@
 import RetirementCalculator from "@/components/RetirementCalculator";
 import AdSlot from "@/components/AdSlot";
 import RelatedLinks from "@/components/RelatedLinks";
+import SiteFooter from "@/components/SiteFooter";
 import { SITE } from "@/lib/site";
 
 export const metadata = {
@@ -114,11 +115,7 @@ export default function RetirementPage() {
 
       <RelatedLinks current="/retirement/" />
 
-      <footer className="site-footer">
-        <p>
-          {SITE.name} · 본 사이트의 계산 결과는 참고용이며 법적 효력이 없습니다.
-        </p>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }
