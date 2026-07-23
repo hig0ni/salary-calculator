@@ -1,0 +1,16 @@
+{
+  "name": "salary-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "연봉 실수령액 계산기 - 로그인 없는 광고형 유틸 사이트 스타터",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
